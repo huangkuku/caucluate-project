@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calculator.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="display">
+        <div class="inpu-num">
+            <input id="cal" class="cal">
+        </div>
+        <div class="calculate">
+            <button onclick="appendIt('+')" class="operat-btn">+</button>
+            <button onclick="appendIt('7')">7</button>
+            <button onclick="appendIt('8')">8</button>
+            <button onclick="appendIt('9')">9</button>
+            <button onclick="appendIt('-')" class="operat-btn">-</button>
+            <button onclick="appendIt('4')">4</button>
+            <button onclick="appendIt('5')">5</button>
+            <button onclick="appendIt('6')">6</button>
+            <button onclick="appendIt('*')" class="operat-btn">*</button>
+            <button onclick="appendIt('1')">1</button>
+            <button onclick="appendIt('2')">2</button>
+            <button onclick="appendIt('3')">3</button>
+            <button onclick="appendIt('/')" class="operat-btn">/</button>
+            <button onclick="appendIt('0')">0</button>
+            <button onclick="appendIt('.')">.</button>
+            <button onclick="calculate('=')">=</button>
+            <button onclick="clearNum('C')" class="operat-btn">C</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
